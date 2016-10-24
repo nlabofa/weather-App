@@ -9,7 +9,6 @@ import {WeatherService} from "./weather.service";
     selector: 'weather-list',
     templateUrl: 'weather-list.component.html',
     styleUrls: ['css/weather-list.css'],
-    providers: [WeatherService]
 })
 
 export class WeatherListComponent implements OnInit {

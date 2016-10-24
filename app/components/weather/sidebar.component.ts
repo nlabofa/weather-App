@@ -9,7 +9,7 @@ import {WeatherItem} from "./weather-item"
     selector: 'my-sidebar',
     templateUrl:'sidebar.component.html',
     styleUrls: ['css/weather-list.css'],
-    providers: [ProfileService, WeatherService]
+    providers: [ProfileService]
 
 })
 export class SidebarComponent implements OnInit {
